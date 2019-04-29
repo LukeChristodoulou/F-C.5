@@ -1,0 +1,110 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>One Pager</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i|PT+Serif|Raleway" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/resp.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+	<h1>Luke Christodoulou</h1>
+		<nav>
+			<ul><a href="#me">About Me</a></ul>
+			<ul><a href="#code">My Coding Experience</ul>
+			<ul><a href="#music">Music I Enjoy</ul>
+			<ul><a href="#video">Videos I Enjoy</a></ul>
+		</nav>
+	</header>
+	<div id="wrapper">
+	<section id="me" class="container me">
+		<h2>About Me</h2>
+			<p>I used to be a student at Hertford Regional College studying TV and Film but I've taken a recent interest in code. Well, it's not that recent, in GSCE's I got an A in IT web development and I that's where the interest originally spiked, even if we were forced to use an old version Dreamweaver. </p>
+			<p>Since the end of my college course I've been self learning from TeamTreeHouse.com, I started on HTML and CSS since that's what I was familiar and I've only dabbled in Python and Javascript for a few hours each. </p>
+			<p>A goal in python for myself was to attempt to create a turn based text adventure that has multiple endings but I'm quite far off of that.</p>
+			<p>University isn't my thing and I was thinking about an apprenticeship but an intense course seem more efficient considering that majority of them seem to help with getting a job afterwards so that's what I'm aiming towards in education.</p>
+	</section>
+	<section id="code" class="container code">
+		<h2>My Coding Experience So Far</h2>
+			<p>Secondary school was the first instance of me using HTML, I took IT for a GCSE and got an A but I wasn't sure if web development was the path I wanted to go down so I didn't explore it throughout college although I did go into developers tools occasionally to peek at the code. I actively started studying around mid-November, got a Team TreeHouse account and started with HTML to refamiliarize myself with the basics along with learning more about CSS. After that I started python, attempting to make part of a text based adventure game. Currently I've only made a sequence (which is on GitHub and is very basic) and I would like to complete it but I thought that I should first cover more ground and learn Javascript for the time being and then try some PHP just so I've got some knowledge in back-end of web development.</p>
+			<p>I've tried to incorperate some Javascript into this site and looked up how to do something along the lines of turn based combat with random stats but I couldn't figure that out in time so there's just a dice roll in the Javascript container. </p>
+			
+			<button onclick="showHide()">Show/Hide</button>
+			<script src="js/showHide.js"></script>
+			
+			<section id="game" class="container containJS">
+		
+			<script src="js/game.js"></script>
+			<button onclick="roll()">Roll</button>
+			
+			</section>
+			
+			<p>I've had quite a few issues with making websites recently. I own a 1440p monitor and have only been making repsosive css for mobiles and tablets so it completely slipped my mind that I had to make a 1080p layout so as I made one and tested it out it the mobile layout got ruined and clashes with the 1080p rules. I tried to find a solution but the problem seems to be with the way I want to display them. I used grid items because they were easy(easier) to manipulate but I don't think that I'm experienced enough to use them well. But hey, hopefully this course will help me comprehend more advanced... well everything.</p>
+		
+			
+	</section>
+	
+	<section id="music" class="container music">
+		<h2>Music I Enjoy</h2>
+			<div class="gridContainerMusic">
+				<div class="gridMusic1">
+					<iframe src="https://open.spotify.com/embed/track/1gGhqfs2pDTOI30AEXMXrn" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+				</div>
+				<div class="gridMusic2">
+					<iframe src="https://open.spotify.com/embed/track/5t2QCWdTPl4UlzkiEbKVCQ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+				</div>
+				<div class="gridMusic3">
+					<iframe src="https://open.spotify.com/embed/track/4U6KEIVpuZAp4ZuxMibZs1" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+				</div>
+				<div class="gridMusic4">
+					<iframe src="https://open.spotify.com/embed/track/5erGUceK8ieHWtTXdnGP65" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+				</div>
+				<div class="gridMusic5">
+					<iframe src="https://open.spotify.com/embed/track/0rKtyWc8bvkriBthvHKY8d" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+				</div>
+				<div class="gridMusic6">
+					<iframe src="https://open.spotify.com/embed/track/6EThJr4Dq1Y93JspecGU2F" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+				</div>
+			</div>
+	</section>
+	<section id="video" class="container video">
+		<h2>Videos I Enjoy</h2>
+			<div class="gridContainerVideo">
+				<div class="gridItem">
+					<iframe width="650" height="500" src="https://www.youtube.com/embed/MMUcafde5A4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="gridItem">
+					<iframe width="650" height="500" src="https://www.youtube.com/embed/0G9PXCMRdjw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="gridItem">
+					<iframe width="650" height="500" src="https://www.youtube.com/embed/B2rox2njKjA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="gridItem">
+					<iframe width="650" height="500" src="https://www.youtube.com/embed/jFs-RLjWg7Y?list=PLQafuufXyLBzrN_tACitsCIRdfMNsNgzp" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<!--
+				<div class="gridItem">
+					<iframe width="650" height="500" src="https://www.youtube.com/embed/cjcNbgqXwms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="gridItem">
+					<iframe width="650" height="500" src="https://www.youtube.com/embed/8ci2hj7CSHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="gridItem">
+					<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">WATCH:  Mike Lee officially became a General in the Great Meme War on the floor of the Senate... <br><br>He used Reagan on a raptor, Aquaman, and Sharknado to show how insane the Green New Deal is...  and it clearly worked, because it set off <a href="https://twitter.com/AOC?ref_src=twsrc%5Etfw">@AOC</a>.<br><br>cc: <a href="https://twitter.com/SenMikeLee?ref_src=twsrc%5Etfw">@SenMikeLee</a> <a href="https://t.co/hdAhqhksRG">pic.twitter.com/hdAhqhksRG</a></p>&mdash; Tim Young (@TimRunsHisMouth) <a href="https://twitter.com/TimRunsHisMouth/status/1110652393488826375?ref_src=twsrc%5Etfw">March 26, 2019</a></blockquote>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div> -->
+			</div>
+	</section>
+	</div>
+	<footer>
+		<h4>My Online Presence</h4>
+			<ul><a href="https://teamtreehouse.com/lukechristodoulou" target="_blank">TeamTreeHouse</a></ul>
+			<ul><a href="https://www.freecodecamp.org/fccb3c6a3bd-9267-4d8e-83a7-05e14f9f79f8" target="_blank">freeCodeCamp</a></ul>
+			<ul><a href="https://github.com/TotodileIsBlue" target="_blank">GitHub</a></ul>
+			<ul><a href="https://gitter.im/TotodileIsBlue" target="_blank">Glitter</a></ul>
+		<p><small><a href="#">Back To Top</a></small></p>
+		<p><small>2019 Luke Christodoulou</small></p>
+	</footer>
+</body>
+</html>

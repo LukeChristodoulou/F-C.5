@@ -1,0 +1,14 @@
+Need
+-----
+Player Stats
+Turned Based Combat System based off of a dice roll (Player base damage x diceroll)
+Enemy drops
+Inventory
+
+
+
+Want
+-----
+Saving
+Story
+Shop

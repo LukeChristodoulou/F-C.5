@@ -1,0 +1,185 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'PT Serif', serif; 
+*/
+/* General */
+body {
+	padding: 0px;
+	margin: 0px auto;
+	list-style-type: none;	
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.25em; /*20px*/
+	color: black;
+	background-color: white;
+	min-width: 717px;
+
+}
+h2 {
+	
+}
+/* Header */
+header {
+	background: black;
+	color: white;
+	border-bottom: 5px double white;
+	border-top: 5px double black;
+	padding-top: 0px;
+	
+}
+header h1{
+	padding-left: 5.4%;
+	border-bottom: 2px solid white;
+}
+header ul{
+	text-align: center;
+	display: inline;
+	text-align: center;
+	margin-left: 4%;
+}
+header a{
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	
+}
+/* Footer */
+footer {
+	min-width: 100%;
+	max-width: 100%;
+	height: 12%;
+	margin: 0px auto;
+	background: black;
+	color: white;
+}
+footer h4 {
+	padding-left: 4.5%; 
+	
+}
+footer p {
+	padding-left: 4.5%;
+	
+}
+footer ul{
+	display: inline;
+	margin: 3%;
+}
+footer a{
+	color: white;
+	text-decoration: none;
+}
+button {
+	border-radius: 5px;
+	background-color: white;
+	font-family: 'Raleway', sans-serif;
+	box-shadow: 7px 8px 15px grey;
+	
+
+}
+button:hover {
+	background-color: grey;
+}
+
+/* Class Specific */
+.container {
+	border-bottom: 2px double black;
+	padding: 10px;
+}
+.containJS {
+	background: #EAEAEA;
+	border: 2px solid black ;
+	border-radius: 5px;
+}
+/*.music li{
+	margin: 0;
+	padding: 2px;
+	display: inline;
+	list-style: none;
+} */
+.gridContainerMusic {
+	display: inline-grid;
+	grid-template-columns: auto auto auto; 
+	grid-template-rows: auto;
+	grid-gap: 5px 5px;
+	margin: 0;
+	padding: 2px;
+	list-style: none;
+}
+.gridMusic1 {
+	grid-column: 1;
+	grid-row: 1;
+}
+.gridMusic2 {
+	grid-column: 2;
+	grid-row: 1;
+}
+.gridMusic3 {
+	grid-column: 3;
+	grid-row: 1;
+}
+.gridMusic4 {
+	grid-column: 4;
+	grid-row: 1;
+}
+.gridMusic5 {
+	grid-column: 5;
+	grid-row: 1;
+}
+.gridMusic6 {
+	grid-column: 6;
+	grid-row: 1;
+}
+
+.gridContainerVideo {
+	display: inline-grid;
+	grid-collumn-end: 1;
+	grid-template-columns: auto auto;
+	grid-gap: 5px 5px;
+	margin: 0px auto;
+	padding: 0px;
+	list-style: none;
+}
+/*.gridVideo1 {
+	grid-column: 1;
+	grid-row: 1;
+}
+.gridVideo2 {
+	grid-column: 2;
+	grid-row: 1;
+}
+.gridVideo3 {
+	grid-column: 3;
+	grid-row: 1;
+}
+.gridVideo4 {
+	grid-column: 1;
+	grid-row: 2;
+}
+.gridVideo5 {
+	grid-column: 2;
+	grid-row: 2;
+}
+.gridVideo6 {
+	grid-column: 3;
+	grid-row: 2;
+}
+*/
+/* ID Specific */
+#wrapper {
+	margin: 0px auto;
+	padding: 0px 5%;
+}
+#game {
+	display: none;
+}
+/*  Scrollbar  */
+-o-transform:scale(1.1);
+::-webkit-scrollbar-track {
+  background: white; 
+}
+::-webkit-scrollbar-thumb {
+  background: #33adff; 
+}
+::-webkit-scrollbar-corner {
+	
+}

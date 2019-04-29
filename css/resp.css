@@ -1,0 +1,157 @@
+@media screen and (max-width: 320px) {
+	body {
+		font-size: 0.7em;
+		text-align: center;
+		word-wrap: break-word;
+		display: absolute;
+		max-width: 320px;
+		}
+	header ul {
+		display: block;
+		font-size: 20px;
+		margin: 2%;
+		}
+	footer {
+		height: 11%;
+		}	
+	.gridContainerVideo {
+		max-width: 100%;
+		max-height: auto;
+		display: block;
+		margin: 0%;
+		padding: 0px;
+		text-align: left;
+	 }
+	 .gridContainerMusic {
+		display: inline-grid;
+		grid-template-columns: auto auto auto;
+		margin: 0px auto;
+	}
+	.gridMusic1 {
+		grid-column: 1;
+		grid-row: 1;
+	}
+	.gridMusic2 {
+		grid-column: 2;
+		grid-row: 1;
+	}
+	.gridMusic3 {
+		grid-column: 1;
+		grid-row: 2;
+	}
+	.gridMusic4 {
+		grid-column: 2;
+		grid-row: 2;
+	}
+	.gridMusic5 {
+		grid-column: 1;
+		grid-row: 3;
+	}
+	.gridMusic6 {
+		grid-column: 2;
+		grid-row: 3;
+	}
+}
+@media screen and (max-width: 997px) {
+	body {
+		font-size: 1em;
+		text-align: center;
+		word-wrap: break-word;
+		display: absolute;
+		max-width: 768px;
+		}
+	header ul {
+		display: block;
+		font-size: 25px;
+		margin: 2%;
+		}
+	footer {
+		height: 11%;
+		}	
+
+	 .gridContainerMusic {
+		display: inline-grid;
+		grid-template-columns: auto auto auto;
+		margin: 0px auto;
+	}
+	.gridMusic1 {
+		grid-column: 1;
+		grid-row: 1;
+	}
+	.gridMusic2 {
+		grid-column: 2;
+		grid-row: 1;
+	}
+	.gridMusic3 {
+		grid-column: 1;
+		grid-row: 2;
+	}
+	.gridMusic4 {
+		grid-column: 2;
+		grid-row: 2;
+	}
+	.gridMusic5 {
+		grid-column: 1;
+		grid-row: 3;
+	}
+	.gridMusic6 {
+		grid-column: 2;
+		grid-row: 3;
+	}
+}
+@media screen and (max-width: 1383px) {
+	.gridContainerVideo {
+		max-width: 100%;
+		max-height: auto;
+		display: block;
+		margin: 0%;
+		padding: 0px;
+	 }
+}
+@media screen and (max-width: 1947px) {
+	body {
+		font-size: 1.7em;
+		max-width: auto;
+		
+	}
+	header{
+		max-width: 100%;
+	}
+	header ul{
+		font-size: 0.8em;
+	}
+	/*p {
+		margin: 20px;
+		max-width: 50%;
+	}*/
+	.gridContainerMusic {
+		grid-template-columns: auto auto auto;
+		margin: 0px auto;
+		text-align: center;	
+	}
+	.gridMusic1 {
+		grid-column: 1;
+		grid-row: 1;
+	}
+	.gridMusic2 {
+		grid-column: 2;
+		grid-row: 1;
+	}
+	.gridMusic3 {
+		grid-column: 3;
+		grid-row: 1;
+	}
+	.gridMusic4 {
+		grid-column: 1;
+		grid-row: 2;
+	}
+	.gridMusic5 {
+		grid-column: 2;
+		grid-row: 2;
+	}
+	.gridMusic6 {
+		grid-column: 3;
+		grid-row: 2;
+	}
+}
+
